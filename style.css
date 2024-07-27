@@ -1,0 +1,63 @@
+:root {
+    font-family: "Play", sans-serif;
+    font-size: 16px;
+    line-height: 1.4em;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    --v-spacing: 1rem;
+    --h-spacing: 1rem;
+
+    --bg-color: #4C8055;
+    --fg-color: #D9DAD9;
+    --accent: #68A4A5;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Rokkitt", serif;
+    margin-top: calc(2 * var(--h-spacing));
+    margin-bottom: var(--h-spacing);
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--h-spacing) var(--v-spacing);
+}
+
+main > header {
+    font-family: "Rokkitt", serif;
+    font-size: 3em;
+    font-weight: bold;
+    margin: var(--h-spacing) 0;
+}
+
+a {
+    background-color: var(--accent);
+    color: currentColor;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul.collection li:not(:last-child) {
+    margin-bottom: var(--h-spacing);
+}
+
+ul.collection li header {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: calc(0.25 * var(--h-spacing));
+}

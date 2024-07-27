@@ -1,3 +1,3 @@
 # Just the Good Parts
 
-Apps without the crap.
+Free open source lifestyle apps that run on any modern device.
